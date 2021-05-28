@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Noto+Sans+SC:wght@500&family=PT+Sans+Caption:wght@700&display=swap');
+
+#heading{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+#head1{
+    margin-top:5%;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 3rem;
+}
+
+#component1{
+    
+    
+    border:1px solid black;
+    border-radius:2%;
+}
+
+#font1{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size:2rem;
+}
+
+.nav1{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size:1.2rem;
+}
+
