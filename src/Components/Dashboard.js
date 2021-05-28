@@ -94,7 +94,7 @@ export default function Dashboard(){
       setRecord((e)=>[...e,{name:imageNames[current], time:currTime, url:images[current], status:1}])
       }
 
-    return(
+      return(
         <div>
            <Navbar1/>
            {
@@ -108,7 +108,8 @@ export default function Dashboard(){
                
                <img src={images[current]} className="img" width="350" />        
                <button ref={bt2}  className="btn btn-white" onClick={swipeRight}><i class="fa fa-thumbs-up fa-3x" aria-hidden="true"></i></button>  
-               </div>               
+               </div>
+               <p className="text-center mt-3" style={{fontSize:"1.5rem"}}>{imageNames[current]}.png</p>               
            </div> 
            :
            <>
