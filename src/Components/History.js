@@ -44,7 +44,7 @@ export default function History(){
                           <tr>
                              <th scope="col">Sr.No</th>
                              <th scope="col">Name</th>
-                             <th scope="col">Photo URL</th>
+                             <th scope="col-2" >Photo</th>
                              <th scope="col">Date & Time</th> 
                              <th scope="col">Response</th> 
                           </tr>
@@ -56,7 +56,7 @@ export default function History(){
                         <tr key={i}>
                            <th scope="row" > {i+1}</th>
                            <td>{e.name}</td>
-                           <td><a href={e.url} target="_blank">{e.url}</a></td>                           
+                           <td><img src={e.url} style={{height:"18vh",width:"30vw" }}/></td>                           
                            <td>{e.time}</td>
                            {
                              e.status===0 ?     
